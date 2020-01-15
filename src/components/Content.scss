@@ -1,0 +1,42 @@
+$border: 1px solid #afafaf;
+
+.content-panel {
+    flex: 1 1 73%;
+    box-sizing: border-box;
+    overflow: auto;
+    height: 100vh;
+    background-color: hsla(23, 27%, 93%, 1);
+
+    .content {
+        padding: 60px 0 20px 20px;
+        max-width: 800px;
+        margin: auto;
+
+        .info {
+            border-bottom: $border;
+            font-size: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        .comment {
+            border-bottom: $border;
+            margin-bottom: 30px;
+            overflow-wrap: break-word;
+            padding: 0 10px 10px;
+        }
+
+        .sub-text {
+            font-size: 12px;
+            font-style: italic;
+            font-weight: 400;
+            margin-top: 2px;
+            text-align: right;
+        }
+
+        .no-comments {
+            text-align: center;
+        }
+    }
+}

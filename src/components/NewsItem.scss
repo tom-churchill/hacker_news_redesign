@@ -1,0 +1,50 @@
+.news-item {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.03);
+        cursor: pointer;
+    }
+
+    &.active {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .upvote-icon {
+        width: 30px;
+        height: 15px;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #525252;
+        box-sizing: border-box;
+        transform: scaleX(0.7) scale(0.45) translateY(-2px);
+    }
+
+    .upvote {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .upvote:hover {
+        background-color: #00000012;
+    }
+
+    .text {
+        flex: 1 1 auto;
+    }
+
+    .sub-text {
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 2px;
+    }
+}

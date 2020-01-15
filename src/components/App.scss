@@ -1,0 +1,23 @@
+body {
+    background-color: hsl(42, 33%, 95%);
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a, body {
+    color: #353535;
+    text-decoration: none;
+}
+
+a:hover {
+    box-shadow: inset 0 -2px 0 #fdf2ea, inset 0 -3px 0 #353535;
+}
+
+code {
+    white-space: pre-wrap;
+}
+
+.page {
+    display: flex;
+}
