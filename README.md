@@ -1,2 +1,2 @@
-Install with "npm install".
-Run with "npm start".
+Install with "yarn install".
+Run with "yarn start".
